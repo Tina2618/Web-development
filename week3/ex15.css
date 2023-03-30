@@ -1,0 +1,25 @@
+body{
+	background-color:aqua;
+	background-image:radial-gradient(rgba(300,20,224,0.3),rgba(52,100,24,0.5),rgba(25,25,50,0.5)),url("../images/26.jpeg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	}
+h1{
+	font-weight:bolder;
+	font-size:30px;
+	color:rgb(255,25,245);
+	}
+p   {
+	font-size:15px;
+	color:rgb(90,25,190);
+	line-height:50px;
+	}
+span{
+	background-color:pink;
+	}
+h2  {
+	line-height:20px;
+	color:rgb(23,25,230);
+	}
+	

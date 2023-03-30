@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title>User Registration Form</title>
+    <style>
+        #h {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #h>#h12 {
+            font-size: 60px;
+            width:100%;
+            height:30%;
+            background-color: yellow;
+            color: black;
+            font-weight:italic;
+            font-family: sans-serif;
+            justify-content: center;
+            display: flex;
+        }
+        #s1 {
+            height:100%;
+            width:100%;
+            background-color: pink;
+           
+            font-size: 50px;
+            display: flex;
+        }
+        td{
+            color: black;
+        }
+        #s {
+            background-color: yellow;
+            color: brown;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <form id="f1" method="post" onsubmit='return validate()'>
+    <div id="h">
+        <div id="h12">
+            <h2>REGISTRATION</h2>
+        </div>
+        <div id="s1">
+            <table>
+                <tr>
+					<td><Label>First Name</Label></td>
+					<td><input type=text name="fname" id="fn" /></td>
+                </tr>
+                <tr>
+					<td><Label>Last Name</Label></td>
+					<td><input type=text name="lname" /></td>
+                </tr>
+                <tr>
+                    <td><Label> UserId</Label></td>
+                    <td><input type=text name="uid" /></td>
+                </tr>
+                <tr>
+                    <td><Label>Password</Label></td>
+                    <td><input type=password name="pass" /></td>
+                </tr>
+                <tr>
+                    <td><Label>Confirm Password</Label></td>
+                    <td><input type=password name="pass" /></td>
+                </tr>
+                <tr>
+                    <td><Label>Address</Label></td>
+                    <td><input type=text name="add" /></td>
+                </tr>
+                <tr>
+                    <td><Label> Email ID</Label></td>
+                    <td><input type=text name="eid" /></td>
+                </tr>
+                <tr>
+                    <td><Label>Contact</Label></td>
+                    <td><input type=text name="con" /></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <input type="submit" id="s" />
+        </div>
+    </div>
+    </form>
+    <script>
+        function validate()
+        {
+            fname=document.forms[0].elements[0].value;
+            //fname=document.getElementById('fn').value;
+            fnamep=/^[a-zA-Z]{2,}$/
+            lname=document.forms[0].elements[1].value;
+            lnamep=/^[a-zA-Z]*$/
+            uid=document.forms[0].elements[2].value;
+            uidp=/^[a-zA-Z]{5}[0-9]{5}$/
+            pass=document.forms[0].elements[3].value;
+            cpass=document.forms[0].elements[4].value;
+            passp=/^(?=.*[0-9])(?=.*[A-Z])(?=.*\w)(?=.*[a-z]).{8,16}$/
+            add=document.forms[0].elements[5].value;
+            adp=/^(?=.*[a-zA-z0-9\W]).{10,}$/
+            mail=document.forms[0].elements[6].value;
+            ep=/^\w+@[A-Za-z_]+?\.[a-zA-Z]{2,3}$/
+            //ep=/^(?=.*[a-zA-z]){,15}(.*[0-9]){,5}[/w]$/
+            con=document.forms[0].elements[7].value;
+            conp=/^([1-9][0-9]{9})$/
+            if(fnamep.test(fname)==false)
+            {
+                alert("Invalid first name");
+                return false;
+            } 
+            else if(!lnamep.test(lname))
+            {
+                alert("Invalid last name");
+                return false;
+            } 
+            else if(!uidp.test(uid))
+            {
+                alert("Invalid id");
+                return false;
+            } 
+            else if(!passp.test(pass))
+            {
+                alert("Invalid password");
+                return false;
+            } 
+            else if(pass!=cpass)
+            {
+                alert("Something wrong with password!!!");
+                return false;
+            }
+            else if(!adp.test(add))
+            {
+                alert("Invalid address");
+                return false;
+            } 
+            else if(!ep.test(mail))
+            {
+                alert("Invalid email");
+                return false;
+            } 
+            else if(!conp.test(con))
+            {
+                alert("Invalid contactno");
+                return false;
+            } 
+            else    
+            return true;    
+        }
+        
+    </script>
+    
+</body>
+
+</html>

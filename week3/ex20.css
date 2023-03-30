@@ -1,0 +1,202 @@
+.container{
+    background-color:Pink;
+    display:flex; 
+    flex-direction:column;
+    width:100%;
+    height:100%;
+    justify-content:space-around; /*for horizontal alignment*/
+    align-items:center; /*for vertical alignment*/
+	position:relative;
+}
+.container > nav{
+	background-image:url("E:\6TH SEMESTER\btbti20289\week3\images\bgs\woven.png");
+    width:100%;
+    height:5%;
+}
+.container > nav > ul{
+	display:flex;
+	flex-direction:row;
+    justify-content:center;
+    align-items:center;
+	font-size:17px;
+	list-style-type:none;
+}
+.container > nav > ul > a{
+	text-decoration:none;
+    display:block;
+}
+.container > nav > ul > a > li:hover{
+    transform:scale(1.1);
+    transition:1s;
+}
+.container > nav > ul > a > li > span:hover{
+    color:red;
+}
+ span{
+	color:black;
+	margin:15px;
+}
+.container > .c1{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c2{
+	background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c3{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c4{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c5{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c6{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:55%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c7{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	color:white;
+	font-size:20px;
+}
+.container > .c8{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > .c1 > div {
+    background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c2 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c3 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c4 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c5 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c6 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:70%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.container > .c8 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}

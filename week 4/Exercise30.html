@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>Guess the Number!</title>
+		<script type="text/javascript">
+		  var number = generateNewValue();
+		  
+		  function generateNewValue(){
+			return Math.floor(1000*Math.random())+1;
+		  }
+		  
+		  function guess()
+		{
+			if (document.getElementById("playerNumber").value == undefined || document.getElementById("playerNumber").value.trim() == "" || isNaN(document.getElementById("playerNumber").value))
+			{
+			  alert("Please type a number");
+			  document.getElementById("playerNumber").focus();
+			  return false;
+			}
+			if (parseInt(document.getElementById("playerNumber").value) > number)
+			{
+			  alert("Too high\n\nTry again.");
+			}else if (parseInt(document.getElementById("playerNumber").value) < number)
+			{
+			  alert("Too low\n\nTry again.");
+			}else
+			{
+			  alert("Congratulations!!\n\nYou guessed the number.");
+			  number = generateNewValue();
+			}
+			document.getElementById("playerNumber").value = "";
+			document.getElementById("playerNumber").focus();
+		}
+		</script>
+	</head>
+		<body bgcolor="pink">
+		  <h2>Guess the number between 1 and 1000!!</h2>
+		  <hr>
+		  <div id="histogram">
+			<label for="playerNumber" accesskey="n">Type a number</label> <input type="number" id="playerNumber" value="" size="10"><br/><br>
+			<button onclick="guess()">This is my guess</button>
+		  </div>
+		</body>
+</html>

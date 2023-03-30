@@ -1,0 +1,31 @@
+.container{
+    border:solid black 2px;
+    background-color:pink;
+    display:flex;
+    flex-flow:row wrap;
+    width:900px;
+    width:900px;
+    height:600px;
+    justify-content:space-around; 
+    align-items:center;
+}
+.container > div{
+	border: solid green 2px;
+    color:blue;
+    background-color:aqua;
+    width:200px;
+    height:200px;
+    margin:10px;
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container > div > img {
+    height:50%;
+    width:50%;
+}
+.container > div > img:hover {
+    transform:scale(1.2);
+    transition:2s;
+}

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Exercise-31</title>
+        <style>
+            .container{
+                background-color:black;
+                position:absolute;
+                color:white;
+                font-weight: bold;
+                font-size: 10px;
+                padding: 15px;
+                left:40%;
+                top:40%;
+                box-shadow: 5px 5px 10px red;
+            }
+            label{
+                position: relative;
+            }
+
+        </style>
+    </head>
+    <body>
+       <form>
+        <box class="container">
+            
+            <input type="range" name="r" size="100px" min="0" max="100" onchange="updateTextInput(this.value);"/>
+            <br>
+            <label id="text_val"></label>
+        </box>
+       </form>
+       <script type="text/javascript">
+        function updateTextInput(val){
+            document.getElementById('text_val').innerHTML=val;
+            document.getElementById('text_val').style.left=val;
+        }
+       </script>
+    </body>
+</html>

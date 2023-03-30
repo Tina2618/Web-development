@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<student_details>
+	<Student rollnumber="1">
+		<name>Tina</name>
+		<class>Btech IT 3rd year</class>
+		<subject>TOC</subject>
+		<subject>AIML</subject>
+		<subject>IWT</subject>
+		<subject>PSM</subject>
+		<subject>FOE</subject>
+		<marks>10</marks>
+		<Total>10</Total>
+	</Student>
+	<Student rollnumber="2">
+		<name>Lovely</name>
+		<class>3rd year</class>
+		<subject>AIML</subject>
+		<subject>TOC</subject>
+		<subject>IWT</subject>
+		<subject>PSM</subject>
+		<subject>FOE</subject>
+		<marks>9</marks>
+		<Total>10</Total>
+	</Student>
+	<Student rollnumber="3">
+		<name>Prachi</name>
+		<class>3rd year</class>
+		<subject>TOC</subject>
+		<subject>AIML</subject>
+		<subject>IWT</subject>
+		<subject>PSM</subject>
+		<subject>FOE</subject>
+		<marks>9.5</marks>
+		<Total>10</Total>
+	</Student>
+</student_details>

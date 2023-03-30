@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Feedback Page</title>
+	</head>
+	<body>
+		<form method="get" action="feedback.html" autocomplete="on" >
+			<table border=0 bgcolor="pink" align="center" height="80%" width="80%">
+				<tr>
+					<td colspan=2 align="center" ><h1>Software Product Feedback Page </h1></td>
+				</tr>
+				<tr>
+					<td colspan=2 align="center" ><h3>We Appreciate your Feedback! </h3></td>
+				</tr>
+				<tr>
+					<td colspan=2><label>Name</label></td>
+				</tr>
+				<tr>
+					<td colspan=2><input type=text name=n <!--placeholder="First Name" required autofocus />-->
+					<input type=text name=sn <!--placeholder="Last Name" required />--><br></td>
+				</tr>
+				<tr>
+					<td  colspan=2><label>Phone Number(Please enter a valid phone number)</label></td>
+				</tr>
+				<tr>
+					<td colspan=2><input type=number name=pn <!--placeholder="(000) 0000000000" />--><br></td>
+				</tr>
+				<tr>
+					<td colspan=2><label>Email</label></td>
+				</tr>
+				<tr>
+					<td colspan=2><input type=email name=e <!--placeholder="example@example.com"required />--><br></td>
+				</tr>
+				<tr>
+					<td colspan=2><label>How Satisfied were you when you used our software product for the first time?</label></td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type=radio name=sat value="vs" />Very Satisfied<br>
+						<input type=radio name=sat value="s"/>Satisfied<br>
+						<input type=radio name=sat value="n"/>Neutral<br>
+						<input type=radio name=sat value="d"/>Disatisfied<br>
+						<input type=radio name=sat value="vd"/>Very Disatisfied<br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2><label>How long have you used our Software product?</label></td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type=radio name=lng value="m6" />More than 6 months<br>
+						<input type=radio name=lng value="1t6"/>1 to 6 months<br>
+						<input type=radio name=lng value="l1"/>Less than 1 month<br>
+						<input type=radio name=lng value="f"/>First time using it<br>
+						<input type=radio name=lng value="nu"/>Never used<br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2><label>How would you rate the buying experience</label></td>
+				</tr>
+				<tr>
+					<td>
+						<select name=rate>
+							<option value=w>Worst</option>
+							<option value=avg>Average</option>
+							<option value=b>Best</option>
+						</select><br>
+					</td>
+				</tr>
+				<!--<tr>
+					<td colspan=2><label>What part of your purchasing experience did you have trouble with?</label></td>
+				</tr>
+				<tr>
+					<td>
+						<input type=checkbox name=exp value="mk" />Market Search<br>
+						<input type=checkbox name=exp value="s" />Sale<br>
+						<input type=checkbox name=exp value="as" />After Sale<br>
+						<input type=checkbox name=exp value="ups" />Using product/service<br>
+						<input type=checkbox name=exp value="n" />None<br>
+						<input type=checkbox name=exp value="o" />Other<br>
+					</td>
+				</tr>-->
+				<tr>
+					<td colspan=2>Has your life changed after using the product?<label></label></td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type=radio name=lf value="y1" />Yes<br>
+						<input type=radio name=lf value="n1"/>No<br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2><label>Will you purchase or use our product again?</label></td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type=radio name=pur value="y2" />Yes<br>
+						<input type=radio name=pur value="n2"/>No<br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2><label>What is your greatest concern about product?</label></td>
+				</tr>
+				<tr>
+					<td>
+						<textarea name=comments rows=5 cols=50 placeholder="Any Comment"></textarea><br>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan=2 >
+						<input type=submit />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

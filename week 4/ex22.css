@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+}
+.inner{
+    color:black;
+	font-size:40px;
+	width:100px;
+	height:100px;
+	border:solid 1px black;
+	text-align:center;
+	font-weight:800;
+}
+#inner1{
+    background-color:black;
+}
+#inner2{
+    background-color:white;
+}
+#inner1:hover{
+    background-color:red;
+    color:red;
+    }
+#inner2:hover{
+    background-color:yellowgreen;
+    color:yellowgreen;
+}

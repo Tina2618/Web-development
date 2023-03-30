@@ -1,0 +1,38 @@
+<html>
+    <head><h2>Stopwatch</h2>
+		<title>Timer</title>
+	</head>
+        <body>
+            <div id="timer"></div>
+                <script>
+                    hr=0;
+                    mm=0;
+                    ss=0;
+                    function Counter()
+                    {
+                       
+                        ss++;
+                        if(ss>59)
+                        {
+                            ss=0;
+                            mm++;
+                        }
+                        if(mm>59)
+                        {
+                            mm=0;
+                            hr++;
+                        }
+                        if(hr>23)
+                        {
+                            hr=0;
+                            mm=0;
+                            ss=0;
+                        }
+                    cTime=hr+":"+mm+":"+ss
+                    document.getElementById("timer").innerHTML="<p>"+cTime+"</p>";
+                    }
+                    </script>
+                     <button id="x1" onclick="x=setInterval(Counter,1000)">Start</button>
+                    <button onclick="clearInterval(x)">Stop</button>
+        </body>
+</html>

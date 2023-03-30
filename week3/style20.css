@@ -1,0 +1,177 @@
+nav{
+	background-image:url("images/bgs/pool_table.png");
+}
+nav > ul{
+	display:flex;
+	flex-direction:row;
+    justify-content:center;
+    align-items:center;
+	font-size:17px;
+	list-style-type:none;
+    padding:10px;
+    margin:10px;
+}
+nav > ul > a{
+	text-decoration:none;
+    display:block;
+}
+nav > ul > a > li:hover{
+    transform:scale(1.1);
+    transition:1s;
+}
+nav > ul > a > li > span:hover{
+    color:yellow;
+}
+ span{
+	color:white;
+	margin:15px;
+}
+.c1{
+    background-image:url("images/bgs/wood_pattern_trans.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.c2{
+	background-image:url("images/bgs/plaid.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c3{
+    background-image:url("images/bgs/green_dust_scratch.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c4{
+    background-image:url("images/bgs/pineapplecut.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c5{
+    background-image:url("images/bgs/wood_pattern.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c6{
+    background-image:url("images/bgs/washi.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c7{
+    background-image:url("images/bgs/pool_table.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+	color:white;
+	font-size:20px;
+}
+.c8{
+    background-image:url("images/bgs/cubes.png");
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.c1 > div {
+    background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.c2 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:80%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.c3 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.c4 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.c5 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.c6 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:70%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
+.c8 > div {
+	background-color:white;
+	display:flex; 
+    flex-direction:column;
+    width:80%;
+    height:90%;
+    margin:10px;
+    font-size:20px;
+	text-align:justify;
+	font-family:'monospace';
+	line-height:1.5;
+	padding:20px;
+    border-radius:5%;
+}
